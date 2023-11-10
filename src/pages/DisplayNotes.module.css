@@ -1,0 +1,132 @@
+.displayContainer {
+    width: 100vw;
+    height: 100vh;
+}
+
+.heading {
+    display: flex;
+    width: 100vw;
+    height: 4.125rem;
+    flex-shrink: 0;
+    background: #E8E8E8;
+    position: relative;
+}
+
+.heading h4 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 1.045rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.02088rem;
+    margin: 1.5rem 0rem 0rem 1rem;
+}
+
+.headerEllipse {
+    width: 3rem;
+    height: 3rem;
+    flex-shrink: 0;
+    background-color: #0047FF;
+    border-radius: 50%;
+    margin: 0.5rem 0rem 0rem 2rem;
+}
+
+.content {
+    width: 100vw;
+    height: 70vh;
+    color: #000;
+    font-family: Roboto;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160.188%;
+    background-color: #F7ECDC;
+    letter-spacing: 0.02844rem;
+    margin: 0rem 0rem 0rem 0rem;
+}
+
+.note {
+    display: flex;
+    background-color: #F7ECDC;
+}
+
+
+
+.time {
+    width: auto;
+    height: 0.77469rem;
+    flex-shrink: 0;
+    color: #353535;
+    font-family: Roboto;
+    font-size: 0.84919rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 97.688%;
+    letter-spacing: 0.017rem;
+    padding: 0.2rem;
+    margin-top: 1.5rem;
+}
+
+.detail {
+    padding: 1rem;
+}
+
+
+
+.form {
+    width: 100vw;
+    height: 8.125rem;
+    background: #E8E8E8;
+    display: flex;
+    margin: 0rem 0rem 1rem 0rem;
+    position: fixed;
+}
+
+.form textarea {
+    width: 93vw;
+    height: 6.375rem;
+    flex-shrink: 0;
+    border-radius: 0.375rem;
+    background: #FFF;
+    margin: 1rem 0rem 0rem 0.5rem;
+    border: none;
+    /* padding: 1rem; */
+}
+
+.form button {
+    width: 1.3125rem;
+    height: 1.10525rem;
+    flex-shrink: 0;
+    background-color: none;
+    margin: 5.5rem 0rem 2rem -2.5rem;
+    border: none;
+    text-decoration: none;
+    position: relative;
+    background-color: #fff;
+}
+
+.back {
+    width: 0.97344rem;
+    height: 0.69688rem;
+    border: none;
+    text-decoration: none;
+    margin: 1.5rem 0rem 0rem 1rem;
+}
+
+@media (min-width: 425px){
+    .displayContainer{
+        width: 70vw;
+        position: fixed;
+    }
+    .heading{
+        width: 70vw;
+    }
+    .content{
+        width: 70vw;
+    }
+    .form textarea {
+        width: 67vw;
+        margin-top: 1.2rem;
+    }
+}

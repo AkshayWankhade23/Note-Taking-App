@@ -1,0 +1,222 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.note {
+  text-decoration: none;
+}
+
+.ellipse {
+  width: 3.87594rem;
+  height: 3.87594rem;
+  border-radius: 50%;
+}
+
+.ellipse p {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 1.35656rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 97.688%;
+  letter-spacing: 0.02713rem;
+  text-align: center;
+}
+
+.note_div {
+  width: 70vw;
+  height: 5vh;
+  background: #fff;
+  margin: 2rem 0rem 0rem 3rem;
+}
+
+.note_div h4 {
+  margin: -3.5rem 0rem 0rem 5rem;
+  color: #000;
+  font-family: Roboto;
+  font-size: 1.16275rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.02325rem;
+  /* text-align: center; */
+}
+
+
+/* createNotes CSS */
+.create-note_header {
+  width: 80vw;
+  height: 30vh;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  background: #fff;
+  margin-top: 40vh;
+  margin-left: 10%;
+  position: fixed;
+  backdrop-filter: blur(10px); 
+  z-index: 999;
+}
+
+@media (min-width: 425px) {
+  .create-note_header{
+    width: 30vw;
+    height: 30vh;
+    margin: 40vh 0vw 0vh 30vw;
+  }
+  .create-note_header h4{
+    margin: 5vh 0vw 0vh 2vw;
+  }
+
+  .create-note_header span{
+    margin: 10rem 0rem 0rem 2rem;
+  }
+
+  .create_btn{
+    margin: 10rem 0rem 0rem 10rem;
+  }
+}
+
+.create-note_header h4 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 1.14975rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160.188%;
+  /* 1.84175rem */
+  letter-spacing: 0.04025rem;
+}
+
+.create-note_header span {
+  color: #000;
+  font-family: Roboto;
+  font-size: 0.91269rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160.188%;
+  /* 1.46194rem */
+  letter-spacing: 0.03194rem;
+}
+
+.create-note_header input {
+  width: 9.375rem;
+  height: 1.4375rem;
+  flex-shrink: 0;
+  border-radius: 0.60725rem;
+  border: 0.883px solid #CCC;
+  background: #FFF;
+  color: #979797;
+  font-family: Roboto;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160.188%;
+  /* 1.00119rem */
+  letter-spacing: 0.02188rem;
+  padding: 1px 5px;
+  margin: 0rem 0rem 0rem 0rem;
+}
+
+
+.ellipse_choose {
+  display: flex;
+  margin: -1rem 0rem 0rem 8rem; 
+  cursor: pointer;
+}
+
+.circle {
+  width: 1.10413rem;
+  height: 1.10413rem;
+  border-radius: 50%;
+  margin-right: 0.4rem;
+}
+
+.ellipse_1 {
+  background-color: #B38BFA;
+}
+
+.ellipse_2 {
+  background-color: #FF79F2;
+}
+
+.ellipse_3 {
+  background-color: #43E6FC;
+}
+
+.ellipse_4 {
+  background-color: #F19576;
+}
+
+.ellipse_5 {
+  background-color: #0047FF;
+}
+
+.ellipse_6 {
+  background-color: #6691FF;
+}
+
+.create_btn {
+  width: 11.625rem;
+  height: 2rem;
+  flex-shrink: 0;
+  border-radius: 0.375rem;
+  background: #000;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160.188%;
+  /* 1.702rem */
+  letter-spacing: 0.03719rem;
+  margin: 2rem 0rem 0rem 1.2rem;
+  cursor: pointer;
+}
+
+
+.popup-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(10px); /* Apply the blur effect */
+  z-index: 999;
+}

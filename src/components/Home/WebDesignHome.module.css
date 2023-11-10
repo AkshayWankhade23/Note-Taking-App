@@ -1,0 +1,106 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.left_container {
+    width: 30vw;
+}
+
+.right_container {
+    width: 70vw;
+    background: #f7ecdc;
+}
+
+.right_container h1 {
+    margin-top: 8rem;
+    text-align: center;
+    justify-content: center;
+    color: #000;
+    font-family: Roboto;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.0625rem;
+}
+
+.right_container p {
+    width: 58vw;
+    height: 4vh;
+    color: #292929;
+    font-family: Roboto;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+    /* 145.455% */
+    letter-spacing: 0.0275rem;
+    /* margin-left: 10rem; */
+    margin: -2rem 0rem 0rem 5rem;
+    text-align: center;
+
+}
+
+.backgroundImg {
+    width: 20vw;
+    height: 10vh;
+    flex-shrink: 0;
+    margin: 35vh 0vw 0vh 22vw;
+    position: relative;
+    background-color: #f7ecdc;
+    /* align-items: center;
+    text-align: center; */
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+    display: flex;
+    margin-top: 18vh;
+    align-items: center;
+    justify-content: center;
+}
+
+/* left container */
+
+.left_container h1 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 1.97rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.03938rem;
+    margin-left: 1rem;
+}
+
+.linknounderline {
+    text-decoration: none;
+    /* width: 90vw; */
+}
+
+.create_grp {
+    text-decoration: none;
+    width: 25vw;
+    height: 2.625rem;
+    border-radius: 2.33238rem;
+    background: #000;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 1.2595rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 97.688%;
+    letter-spacing: 0.02519rem;
+    padding-top: 17px;
+    margin: 1.44rem 0rem 0rem 1.06rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.create_grp span {
+    margin-right: 1.22rem;
+}

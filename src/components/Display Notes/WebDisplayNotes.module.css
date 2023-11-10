@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left_container{
+    width: 30vw;
+}
+
+.right_container{
+    width: 70vw;
+    /* position: fixed; */
+}
+
+.left_container h1 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 1.97rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.03938rem;
+    margin-left: 1rem;
+}
+
+.create_grp {
+    text-decoration: none;
+    width: 25vw;
+    height: 2.625rem;
+    border-radius: 2.33238rem;
+    background: #000;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 1.2595rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 97.688%;
+    /* 1.23038rem */
+    letter-spacing: 0.02519rem;
+    padding-top: 17px;
+    margin: 1.44rem 0rem 0rem 1.06rem;
+    text-align: center;
+}
